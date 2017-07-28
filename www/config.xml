@@ -60,8 +60,9 @@
     <gap:plugin name="org.apache.cordova.vibration" />-->
         <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
-       <plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
- <!--<plugin spec="https://github.com/apache/cordova-plugin-media-capture.git" source="git" />
+        
+        <!--<plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
+<plugin spec="https://github.com/apache/cordova-plugin-media-capture.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-console.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-device.git" source="git" />
@@ -77,6 +78,7 @@
 <plugin spec="https://github.com/apache/cordova-plugin-network-information.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-splashscreen.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-vibration.git" source="git" />-->
+        
      <!--<plugin name="org.apache.cordova.battery-status" spec="0.2.12" source="pgb" />
      <plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
      <plugin name="org.apache.cordova.media-capture" spec="0.3.6" source="pgb" />
