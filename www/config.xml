@@ -58,7 +58,9 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />-->
-     <plugin name="org.apache.cordova.battery-status" spec="0.2.12" source="pgb" />
+        <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git" />
+<plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
+     <!--<plugin name="org.apache.cordova.battery-status" spec="0.2.12" source="pgb" />
      <plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
      <plugin name="org.apache.cordova.media-capture" spec="0.3.6" source="pgb" />
 <plugin name="org.apache.cordova.console" spec="0.2.13" source="pgb" />
@@ -75,7 +77,7 @@
 <plugin name="org.apache.cordova.media" spec="0.2.16" source="pgb" />
 <plugin name="org.apache.cordova.network-information" spec="0.2.15" source="pgb" />
 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
-<plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
+<plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />-->
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
