@@ -58,10 +58,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />-->
-        <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git" />
-<plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
         
-        <!--<plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
+        <!--<plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git" />
+<plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
+        <plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-media-capture.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-console.git" source="git" />
 <plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git" />
@@ -97,6 +97,25 @@
 <plugin name="org.apache.cordova.network-information" spec="0.2.15" source="pgb" />
 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
 <plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />-->
+        
+        <plugin name="org.apache.cordova.battery-status" source="pgb" />
+     <plugin name="org.apache.cordova.camera" source="pgb" />
+     <plugin name="org.apache.cordova.media-capture" source="pgb" />
+<plugin name="org.apache.cordova.console" source="pgb" />
+<plugin name="org.apache.cordova.contacts" source="pgb" />
+<plugin name="org.apache.cordova.device" source="pgb" />
+<plugin name="org.apache.cordova.device-motion" source="pgb" />
+<plugin name="org.apache.cordova.device-orientation" source="pgb" />
+<plugin name="org.apache.cordova.dialogs" source="pgb" />
+<plugin name="org.apache.cordova.file" source="pgb" />
+<plugin name="org.apache.cordova.file-transfer" source="pgb" />
+<plugin name="org.apache.cordova.geolocation"  source="pgb" />
+<plugin name="org.apache.cordova.globalization" source="pgb" />
+<plugin name="org.apache.cordova.inappbrowser"  source="pgb" />
+<plugin name="org.apache.cordova.media"  source="pgb" />
+<plugin name="org.apache.cordova.network-information" source="pgb" />
+<plugin name="org.apache.cordova.splashscreen" source="pgb" />
+<plugin name="org.apache.cordova.vibration" source="pgb" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
